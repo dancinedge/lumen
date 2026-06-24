@@ -1,0 +1,47 @@
+{
+  "metrics": {
+    "mingxie_ratio": 5.0,
+    "dechirp_reduces_slice": false,
+    "lpa_fel_floor_nm": 24.8,
+    "break_even_n": 1.3,
+    "fel_per_scanner_design": 26.0,
+    "fel_per_scanner_n1": 260.0,
+    "cryomodule_wright": 0.95
+  },
+  "falsifiers": [
+    {
+      "name": "F-SL-1 DECHIRP-NOT-COOLING",
+      "triggered": false,
+      "status": "PASS"
+    },
+    {
+      "name": "F-SL-2 SLICE-WALL",
+      "triggered": false,
+      "status": "PASS"
+    },
+    {
+      "name": "F-SL-3 LPA-FLOOR",
+      "triggered": false,
+      "status": "PASS"
+    },
+    {
+      "name": "F-SL-4 BREAKEVEN-HOLDS",
+      "triggered": false,
+      "status": "PASS"
+    },
+    {
+      "name": "F-SL-5 BREAKEVEN-INVERTS",
+      "triggered": false,
+      "status": "PASS"
+    },
+    {
+      "name": "F-SL-6 WRIGHT-SHALLOW",
+      "triggered": false,
+      "status": "PASS"
+    }
+  ],
+  "n_pass": 6,
+  "n_total": 6,
+  "all_pass": true,
+  "verdict": "SUPPORTED"
+}

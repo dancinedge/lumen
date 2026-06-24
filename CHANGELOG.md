@@ -4,6 +4,16 @@ All notable changes to lumen are recorded here (append-only).
 
 ## Unreleased
 
+- **Fleet round 2 → slice-spread wall + amortization break-even (H_031).** Deeper sourcing
+  sharpened two corrections: (A) the FEL constraint that bounds the wavelength dial is **slice
+  energy spread**, not undulator length — single-pass cooling is undemonstrated and DESY LUX's
+  2.13%→0.068% is dechirping (correlation rotation), not slice cooling, so a 0.5% LPA slice
+  sits ~5× over the Ming-Xie criterion and will not lase at 13.5 nm (demonstrated floor ~24.8 nm;
+  a TGU is the named unverified escape); (B) H_021's FEL-CAPEX-<-LPP holds only at fan-out N≥~2
+  (~8× at N=10, inverts at N=1), the cryomodule Wright slope being shallow (~0.95) → the economics
+  are M9-amortization not M7-learning. xLight confirmed an ERL FEL (not LPA); zero funded LPA
+  programs. Registry: 31 verified 🟢 + 10 abstract 🜂.
+
 - **Fleet (4-lane source+verify) → funded-reality reference-match (H_030).** A `/fleet`
   Workflow ran 4 lanes (accel-source · econ-source · lens-verify · prior-art) against
   published/funded data (`state/sourced-parameters.md` fleet section). Outcome: the
