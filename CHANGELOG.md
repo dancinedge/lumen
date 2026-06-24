@@ -4,6 +4,13 @@ All notable changes to lumen are recorded here (append-only).
 
 ## Unreleased
 
+- Choose form = **research hub**. Tree = table of contents, `state/` = per-pillar
+  research. Added `state/light-source-paths.md` (LPP/DPP/LDP/synchrotron/FEL comparison
+  table + sub-13.5 nm prospects), `state/photochemistry.md` (resist / stochastics /
+  thin-film), `state/optics.md` (NA↔DoF, multilayer mirrors). Filled ARCHITECTURE.json
+  `dataflow` node (input → curate-by-pillar → output).
+
+
 - Define direction: lumen targets the next-generation semiconductor-lithography
   light-source problem (EUV 13.5 nm first; the sub-13.5 nm / 6.5 nm stable-source gap
   is the central target). Filled ARCHITECTURE.json overview (scope + core dilemma:

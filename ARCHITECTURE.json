@@ -55,8 +55,12 @@
     },
     {
       "id": "dataflow",
-      "role": "Input → processing → output (define once the project's concrete form — research-hub / simulator / tool — is chosen).",
-      "children": []
+      "role": "Form = research hub. Tree (this file) is the table of contents; per-pillar research lives flat in state/.",
+      "children": [
+        { "id": "dataflow.input", "role": "Input — sources/devices/papers/specs on the lithography light-source problem." },
+        { "id": "dataflow.curate", "role": "Curate — organize each finding under one of the three reference pillars (light-source · photochemistry · optics)." },
+        { "id": "dataflow.output", "role": "Output — structured notes in state/: light-source-paths.md (path comparison table), photochemistry.md, optics.md, euv-source-problem.md (sourced framing)." }
+      ]
     }
   ]
 }
