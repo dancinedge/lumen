@@ -43,6 +43,15 @@ The accelerator route wins wavelength/compactness (H_004/006/007) but is **not**
 - **H_010** 🟢 vs synchrotron — a storage ring meets HVM power but costs ~4 EUV-tools and ~200× the footprint; the compact LPA inverts it. The landscape is a **footprint ↔ throughput** trade — pick which wall to break.
 - **H_011** 🟢 wavelength reach — no theoretical short-λ floor: λ ~ 1/E² walks EUV→water-window→X-ray. Single-stage LPA (≤1 GeV) → ~3 nm, a few stages (≤2 GeV) → ~1 nm, ~5 GeV → 0.1 nm. So "how low?" = arbitrarily low in *wavelength*; the cap is flux (H_008) / beam quality (H_009), not the band.
 
+## Flux-wall breakthroughs (🜂 abstract — unverified)
+
+Ways the flux/beam-quality wall *might* break — imagination, not findings (full divergence in `state/flux-wall-brainstorm.md`; cards `HYPOTHESES/cards/H_A*.md`, 🜂 tier, no verdict):
+- **H_A1** cavity-enhanced inverse-Compton + fs timing lock — decouple photon rep-rate from the amplifier.
+- **H_A2** compact LPA micro-SASE FEL — exponential photon gain (~100×/bunch).
+- **H_A3** recirculating micro-storage + cryo many-period undulator — both walls at once (×N turns × narrow line).
+- **H_A4** spectral gating + grazing-incidence column — near-term in-band recovery (runnable next → promote candidate).
+- **H_A5** all-optical EUV (HHG→plasma-mirror→metasurface) — accelerator-free moonshot.
+
 ## The 6.5 nm ("Beyond-EUV" / BEUV) wall
 
 - Shorter wavelength → higher resolution at fixed NA, but **no clear stable-source path** (this is the stated central dilemma).
