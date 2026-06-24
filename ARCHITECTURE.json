@@ -3,26 +3,59 @@
   "role": "lumen — Architecture (JSON tree · SSOT)",
   "title": "lumen — Architecture",
   "updated": "2026-06-24",
-  "ssot_note": "JSON=SSOT (AI/tool parse); humans view architecture.html via `python3 serve.py`. Update in-place (not append). History/decisions → CHANGELOG.md. Hierarchy decomposes via `children` (commons single-doc); one fact per node, deeper detail → child nodes.",
+  "ssot_note": "JSON=SSOT (AI/tool parse); humans view architecture.html via `python3 serve.py`. Update in-place (not append). History/decisions/dates → CHANGELOG.md + git (never in tree). Hierarchy decomposes via `children` (commons single-doc); one fact per node, deeper detail → child nodes.",
   "children": [
     {
       "id": "overview",
-      "role": "Engineer stable light sources for bands nature does not supply — EUV (13.5 nm) first instance, generalizing to any hard-to-generate wavelength lacking a stable natural emitter.",
+      "role": "Engineer stable light sources for bands nature does not supply — the next-generation semiconductor-lithography source problem. EUV (13.5 nm) is the first instance; scope generalizes to any hard-to-generate wavelength lacking a stable natural emitter.",
       "children": [
         {
           "id": "scope",
-          "role": "The source problem, not one wavelength: EUV is the first instance, not the boundary."
+          "role": "The source problem, not one wavelength: EUV is the first instance, not the boundary. Reference fields = light-source, photochemistry, optics."
+        },
+        {
+          "id": "core-dilemma",
+          "role": "Next-gen lithography wall — three coupled constraints below.",
+          "children": [
+            { "id": "dilemma.roadmap-gap", "role": "Current EUV has a roadmap through ~3rd generation, but no clear technical alternative beyond it (post-2040s)." },
+            { "id": "dilemma.na-vs-dof", "role": "Raising NA (numerical aperture) for resolution shrinks depth-of-focus, forcing extreme-thin resist control → process difficulty and error rate spike." },
+            { "id": "dilemma.shorter-wavelength-source", "role": "Going to a shorter wavelength (e.g. 6.5 nm) is theoretically possible, but no clear engineering path to a STABLE source — the central open problem lumen targets." }
+          ]
         }
       ]
     },
     {
       "id": "components",
-      "role": "Component breakdown (fill as components land).",
-      "children": []
+      "role": "Reference fields — the three knowledge pillars of the source problem.",
+      "children": [
+        {
+          "id": "light-source",
+          "role": "Light source (광원) — how the photons are generated.",
+          "children": [
+            { "id": "light-source.lpp", "role": "LPP (Laser-Produced Plasma) — ASML incumbent path for EUV; tin-droplet plasma, ~30yr ecosystem moat." },
+            { "id": "light-source.ldp", "role": "LDP (Laser-induced Discharge Plasma) — path ASML abandoned; revisited by China for indigenous lithography." },
+            { "id": "light-source.synchrotron", "role": "Synchrotron / storage-ring radiation — basic-science route to EUV/shorter wavelengths; low throughput today, long-term variable." }
+          ]
+        },
+        {
+          "id": "photochemistry",
+          "role": "Photochemistry (광화학) — the photoresist that records the image.",
+          "children": [
+            { "id": "photochemistry.thin-resist", "role": "Shrinking depth-of-focus at high NA forces extreme-thin resist; thickness/uniformity control becomes the dominant difficulty and error source." }
+          ]
+        },
+        {
+          "id": "optics",
+          "role": "Optics (광학계) — focusing and imaging the source.",
+          "children": [
+            { "id": "optics.na-dof", "role": "NA ↑ improves physical resolution but shrinks depth-of-focus (DoF); the NA/DoF trade-off drives the resist and process constraints." }
+          ]
+        }
+      ]
     },
     {
       "id": "dataflow",
-      "role": "Input → processing → output (fill as the pipeline takes shape).",
+      "role": "Input → processing → output (define once the project's concrete form — research-hub / simulator / tool — is chosen).",
       "children": []
     }
   ]
