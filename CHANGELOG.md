@@ -4,6 +4,16 @@ All notable changes to lumen are recorded here (append-only).
 
 ## Unreleased
 
+- Brainstorm the flux-wall breakthroughs to depletion (8 rounds → 8 themes → top-5) and freeze
+  the result: full divergence in `state/flux-wall-brainstorm.md`; top-5 as **🜂 ABSTRACT
+  hypotheses** `H_A1`–`H_A5` (`cards/H_A*.md`) — unverified conjectures with a falsifiable
+  prediction each, **no run / no verdict**, tier-separated from the verified `H_0xx` chain:
+  H_A1 cavity-enhanced inverse-Compton + fs timing lock · H_A2 compact LPA micro-SASE FEL ·
+  H_A3 recirculating micro-storage + cryo many-period undulator · H_A4 spectral gating +
+  grazing-incidence column (runnable-next promote candidate) · H_A5 all-optical EUV moonshot.
+  Added the 🜂 tier to the `HYPOTHESES/` folder guide + a breakthrough pointer in
+  `state/light-source-paths.md`.
+
 - Run **H_011 accelerator wavelength reach** (🟢 SUPPORTED, 5/5, deterministic):
   no theoretical short-wavelength floor — λ ~ 1/E² walks EUV→water-window→X-ray
   (0.5/1/2/5/10 GeV → 11.75/2.94/0.73/0.12/0.03 nm; 3 nm@0.99 GeV, 1 nm@1.71 GeV,

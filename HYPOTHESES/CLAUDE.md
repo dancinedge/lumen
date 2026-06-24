@@ -29,5 +29,8 @@ with the shared runnable machinery in repo-root `tool/` (not a local harness).
 
 - Shared physics → `tool/lumen_optics.py`. Per-hypothesis run + result → `state/`.
 - Tier badges in the registry: `🟢 SUPPORTED` · `🟡 PARTIAL` · `🔴 FALSIFIED` ·
-  `⚪ PRE-REGISTERED (still-to-run)`.
+  `⚪ PRE-REGISTERED (still-to-run)` · `🜂 ABSTRACT (unverified · falsifiable prediction)`.
+- 🜂 ABSTRACT cards (`H_A*`) are imagination/conjecture — a falsifiable prediction but **no run,
+  no verdict**, kept tier-separated from the verified `H_0xx` chain (honesty). Promote one to a
+  verified `H_0xx` only after it is actually run.
 - Update the registry line in lockstep when a card's verdict changes.
