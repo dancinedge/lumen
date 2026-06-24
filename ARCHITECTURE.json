@@ -1,0 +1,29 @@
+{
+  "$schema": "c4",
+  "role": "lumen — Architecture (JSON tree · SSOT)",
+  "title": "lumen — Architecture",
+  "updated": "2026-06-24",
+  "ssot_note": "JSON=SSOT (AI/tool parse); humans view architecture.html via `python3 serve.py`. Update in-place (not append). History/decisions → CHANGELOG.md. Hierarchy decomposes via `children` (commons single-doc); one fact per node, deeper detail → child nodes.",
+  "children": [
+    {
+      "id": "overview",
+      "role": "Engineer stable light sources for bands nature does not supply — EUV (13.5 nm) first instance, generalizing to any hard-to-generate wavelength lacking a stable natural emitter.",
+      "children": [
+        {
+          "id": "scope",
+          "role": "The source problem, not one wavelength: EUV is the first instance, not the boundary."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "role": "Component breakdown (fill as components land).",
+      "children": []
+    },
+    {
+      "id": "dataflow",
+      "role": "Input → processing → output (fill as the pipeline takes shape).",
+      "children": []
+    }
+  ]
+}
