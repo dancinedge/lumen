@@ -65,3 +65,16 @@
 | **Energy share** | ~$0.6/wafer-layer of ~$70 tool cost (~1%); FEL ~6× better wall-plug than LPP | ✅ confirms M8 negligible + the efficiency-edge thesis |
 
 **Fleet net (🜂):** the campaign's *direction* is validated by real industry money (xLight/KEK) — but three honest corrections land via H_030: (1) the funded driver is a **conventional ERL, not the tabletop LPA** lumen emphasized; (2) the funded economic lever is **M9-amortization, not M7 module-learning**; (3) **13.5 nm-on-LPA and single-pass cooling are undemonstrated**. The robust restatement: "a shared accelerator-driven FEL amortized across many scanners" (the xLight bet) — lumen's specific *compact-LPA + module-array + cooling* form is the longer-horizon, less-proven variant of an already-pursued idea.
+
+## Fleet round 2 — sharpened corrections (🜂, H_031)
+| Finding | Sourced | Effect |
+|---|---|---|
+| Single-pass cooling | never demonstrated; OSC is multi-turn storage-ring only (IOTA 100 MeV; CESR 1 GeV) | ⚠️ H_028 cooling lens aspirational (confirmed) |
+| Dechirp ≠ cooling | DESY LUX (Nature 2025) 2.13%→0.068% single-pass, but a *correlation* rotation — slice spread unchanged | ⚠️ the demonstrated single-pass win does NOT help FEL gain |
+| Slice-spread wall | 0.5% slice / ρ~1e-3 ≈ 5× over Ming-Xie → no 13.5 nm lasing; demonstrated LPA-FEL floor ~24.8–27 nm | ⚠️ the wavelength dial (H_007/H_011) is bounded by slice spread; TGU = named unverified escape |
+| xLight architecture | definitively an **ERL FEL** (EUVL Workshop 2024 P43, JLab heritage), not cavity, not LPA; $150 M CHIPS finalized 2026-06; zero funded LPA programs | ✅ sharpens H_030 (funded = energy-recovery linac) |
+| Cryomodule Wright | HEP SRF slope ~0.95 (E-XFEL 103 CMs, ILC TDR) → ~15% over a fleet | ⚠️ economics = M9 amortization, not M7 learning |
+| Amortization break-even | KEK $260 M/10 kW → ~$26 M/scanner at N~10 (~8× < LPP); inverts at N=1 ($260 M > $200 M) | ⚠️ H_021 holds only at fan-out N≥~2 |
+| IC-EUV (H_028 L2) | inverse-Compton is genuinely undulator-free (no σ<ρ), but EUV-IC undemonstrated (RadiaBeam X-ray pilot; TU Eindhoven research; "very small" power) | ◐ real physics, undemonstrated at EUV |
+
+**Fleet-r2 net (🜂):** the wavelength "dial" is bounded by **slice energy spread** — dechirping (the only demonstrated single-pass win) is not cooling, so a real 0.5% LPA beam will not lase at 13.5 nm; only a TGU (unverified) could. The CAPEX win is **real but only amortized** across a fan-out (M9), the manufacturing learning curve (M7) being shallow. Every r2 correction again points the same honest direction: **the funded conventional-ERL/M9 form is the robust one; the tabletop-LPA/dial/cooling form is the harder, less-proven variant.**
